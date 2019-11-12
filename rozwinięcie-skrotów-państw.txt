@@ -1,0 +1,38 @@
+AL - Albania
+AT - Austria
+BA - Bośnia i Hercegowina
+BE - Belgia
+BG - Bułgaria
+CH - Szwajcaria
+CY - Cypr
+CZ - Czechy
+DE - Niemcy
+DK - Dania
+EE - Estonia
+ES - Hiszpania
+FI - Finlandia
+FR - Francja
+HR - Chorwacja
+HU - Węgry
+IE - Irlandia
+IS - Izrael
+IT - Włochy
+JP - Japonia
+LT - Litwa
+LU - Luksemburg
+LV - Łotwa
+ME - Czarnogóra
+MK - Macedonia Północna
+MT - Malta
+NL - Holandia
+NO - Norwegia
+PL - Polska
+PT - Portugalia
+RO - Rumunia
+RS - Serbia
+SE - Szwecja
+SI - Słowenia
+SK - Słowacja
+TR - Turcja
+UK - Wielka Brytania
+US - Stany Zjednoczone
