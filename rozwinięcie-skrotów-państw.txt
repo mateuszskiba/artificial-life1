@@ -1,38 +1,86 @@
-AL - Albania
-AT - Austria
-BA - Bośnia i Hercegowina
-BE - Belgia
-BG - Bułgaria
-CH - Szwajcaria
+AL - Albania+
+AT - Austria+
+BA - Bośnia i Hercegowina+
+BE - Belgia+
+BG - Bułgaria+
+CH - Szwajcaria+
 CY - Cypr
-CZ - Czechy
-DE - Niemcy
-DK - Dania
-EE - Estonia
-ES - Hiszpania
-FI - Finlandia
-FR - Francja
-HR - Chorwacja
-HU - Węgry
-IE - Irlandia
+CZ - Czechy+
+DE - Niemcy+
+DK - Dania+
+EE - Estonia+
+ES - Hiszpania+
+FI - Finlandia+
+FR - Francja+
+HR - Chorwacja+
+HU - Węgry+
+IE - Irlandia+
 IS - Izrael
-IT - Włochy
+IT - Włochy+
 JP - Japonia
-LT - Litwa
-LU - Luksemburg
-LV - Łotwa
+LT - Litwa+
+LU - Luksemburg+
+LV - Łotwa+
 ME - Czarnogóra
-MK - Macedonia Północna
-MT - Malta
-NL - Holandia
-NO - Norwegia
-PL - Polska
-PT - Portugalia
-RO - Rumunia
-RS - Serbia
-SE - Szwecja
-SI - Słowenia
-SK - Słowacja
+MK - Macedonia Północna+
+MT - Malta+
+NL - Holandia+
+NO - Norwegia+
+PL - Polska+
+PT - Portugalia+
+RO - Rumunia+
+RS - Serbia+
+SE - Szwecja+
+SI - Słowenia+
+SK - Słowacja+
 TR - Turcja
-UK - Wielka Brytania
+UK - Wielka Brytania+
 US - Stany Zjednoczone
+
+=======
+Pokrywające się kraje w datasetach
+=======
+Albania+
+Andorra
+Austria+
+Belarus
+Belgium+
+Bosnia and Herzegovina+
+Bulgaria+
+Croatia+
+Czechia+
+Denmark+
+Estonia+
+Finland+
+France+
+Germany+
+Gibraltar
+Greece
+Hungary+
+Iceland
+Ireland+
+Italy+
+Latvia+
+Liechtenstein
+Lithuania+
+Luxembourg+
+Malta+
+Monaco
+Montenegro
+Netherlands+
+North Macedonia+
+Norway+
+Poland+
+Portugal+
+Republic of Moldova
+Romania+
+Russian Federation
+San Marino
+Serbia+
+Slovakia+
+Slovenia+
+Spain+
+Sweden+
+Switzerland+
+Ukraine
+United Kingdom+
