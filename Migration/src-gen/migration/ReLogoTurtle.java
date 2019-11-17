@@ -672,6 +672,111 @@ public class ReLogoTurtle extends BaseTurtle{
 	}
 
 	/**
+	 * Returns the value from the getGdp() method of the underlying patch.
+	 * 
+	 * @return getGdp() of type java.lang.Object
+	 */
+	@ReLogoBuilderGeneratedFor("migration.relogo.UserPatch")
+	public java.lang.Object getGdp(){
+		migration.relogo.UserPatch p = (migration.relogo.UserPatch)patchHere();
+		return p.getGdp();
+	}
+
+	/**
+	 * Calls the setGdp(java.lang.Object) method of the underlying patch.
+	 * 
+	 */
+	@ReLogoBuilderGeneratedFor("migration.relogo.UserPatch")
+	public void setGdp(java.lang.Object value){
+		migration.relogo.UserPatch p = (migration.relogo.UserPatch)patchHere();
+		p.setGdp(value);
+	}
+
+	/**
+	 * Returns the value from the getUnemployment() method of the underlying patch.
+	 * 
+	 * @return getUnemployment() of type java.lang.Object
+	 */
+	@ReLogoBuilderGeneratedFor("migration.relogo.UserPatch")
+	public java.lang.Object getUnemployment(){
+		migration.relogo.UserPatch p = (migration.relogo.UserPatch)patchHere();
+		return p.getUnemployment();
+	}
+
+	/**
+	 * Calls the setUnemployment(java.lang.Object) method of the underlying patch.
+	 * 
+	 */
+	@ReLogoBuilderGeneratedFor("migration.relogo.UserPatch")
+	public void setUnemployment(java.lang.Object value){
+		migration.relogo.UserPatch p = (migration.relogo.UserPatch)patchHere();
+		p.setUnemployment(value);
+	}
+
+	/**
+	 * Returns the value from the getCoeff() method of the underlying patch.
+	 * 
+	 * @return getCoeff() of type java.lang.Object
+	 */
+	@ReLogoBuilderGeneratedFor("migration.relogo.UserPatch")
+	public java.lang.Object getCoeff(){
+		migration.relogo.UserPatch p = (migration.relogo.UserPatch)patchHere();
+		return p.getCoeff();
+	}
+
+	/**
+	 * Calls the setCoeff(java.lang.Object) method of the underlying patch.
+	 * 
+	 */
+	@ReLogoBuilderGeneratedFor("migration.relogo.UserPatch")
+	public void setCoeff(java.lang.Object value){
+		migration.relogo.UserPatch p = (migration.relogo.UserPatch)patchHere();
+		p.setCoeff(value);
+	}
+
+	/**
+	 * Returns the value from the getAttr() method of the underlying patch.
+	 * 
+	 * @return getAttr() of type java.lang.Object
+	 */
+	@ReLogoBuilderGeneratedFor("migration.relogo.UserPatch")
+	public java.lang.Object getAttr(){
+		migration.relogo.UserPatch p = (migration.relogo.UserPatch)patchHere();
+		return p.getAttr();
+	}
+
+	/**
+	 * Calls the setAttr(java.lang.Object) method of the underlying patch.
+	 * 
+	 */
+	@ReLogoBuilderGeneratedFor("migration.relogo.UserPatch")
+	public void setAttr(java.lang.Object value){
+		migration.relogo.UserPatch p = (migration.relogo.UserPatch)patchHere();
+		p.setAttr(value);
+	}
+
+	/**
+	 * Returns the value from the getPrev_gdp() method of the underlying patch.
+	 * 
+	 * @return getPrev_gdp() of type java.lang.Object
+	 */
+	@ReLogoBuilderGeneratedFor("migration.relogo.UserPatch")
+	public java.lang.Object getPrev_gdp(){
+		migration.relogo.UserPatch p = (migration.relogo.UserPatch)patchHere();
+		return p.getPrev_gdp();
+	}
+
+	/**
+	 * Calls the setPrev_gdp(java.lang.Object) method of the underlying patch.
+	 * 
+	 */
+	@ReLogoBuilderGeneratedFor("migration.relogo.UserPatch")
+	public void setPrev_gdp(java.lang.Object value){
+		migration.relogo.UserPatch p = (migration.relogo.UserPatch)patchHere();
+		p.setPrev_gdp(value);
+	}
+
+	/**
 	 * Makes a directed userLink from a turtle to the caller then executes a set of
 	 * commands on the created userLink.
 	 * 
@@ -1004,6 +1109,132 @@ public class ReLogoTurtle extends BaseTurtle{
 	@ReLogoBuilderGeneratedFor("migration.relogo.UserLink")
 	public migration.relogo.UserLink userLink(Turtle oneEnd, Turtle otherEnd) {
 		return userLink(oneEnd.getWho(), otherEnd.getWho());
+	}
+
+	/**
+	 * Returns the value of the global variable countriesList.
+	 *
+	 * @return the value of the global variable countriesList
+	 */
+	@ReLogoBuilderGeneratedFor("global: countriesList")
+	public Object getCountriesList(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("countriesList");
+	}
+
+	/**
+	 * Sets the value of the global variable countriesList.
+	 *
+	 * @param value
+	 *            a value
+	 */
+	@ReLogoBuilderGeneratedFor("global: countriesList")
+	public void setCountriesList(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("countriesList",value);
+	}
+
+	/**
+	 * Returns the value of the global variable gdp_weight.
+	 *
+	 * @return the value of the global variable gdp_weight
+	 */
+	@ReLogoBuilderGeneratedFor("global: gdp_weight")
+	public Object getGdp_weight(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("gdp_weight");
+	}
+
+	/**
+	 * Sets the value of the global variable gdp_weight.
+	 *
+	 * @param value
+	 *            a value
+	 */
+	@ReLogoBuilderGeneratedFor("global: gdp_weight")
+	public void setGdp_weight(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("gdp_weight",value);
+	}
+
+	/**
+	 * Returns the value of the global variable unmpl_weight.
+	 *
+	 * @return the value of the global variable unmpl_weight
+	 */
+	@ReLogoBuilderGeneratedFor("global: unmpl_weight")
+	public Object getUnmpl_weight(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("unmpl_weight");
+	}
+
+	/**
+	 * Sets the value of the global variable unmpl_weight.
+	 *
+	 * @param value
+	 *            a value
+	 */
+	@ReLogoBuilderGeneratedFor("global: unmpl_weight")
+	public void setUnmpl_weight(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("unmpl_weight",value);
+	}
+
+	/**
+	 * Returns the value of the global variable gdp_slider.
+	 *
+	 * @return the value of the global variable gdp_slider
+	 */
+	@ReLogoBuilderGeneratedFor("global: gdp_slider")
+	public Object getGdp_slider(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("gdp_slider");
+	}
+
+	/**
+	 * Sets the value of the global variable gdp_slider.
+	 *
+	 * @param value
+	 *            a value
+	 */
+	@ReLogoBuilderGeneratedFor("global: gdp_slider")
+	public void setGdp_slider(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("gdp_slider",value);
+	}
+
+	/**
+	 * Returns the value of the global variable unmpl_slider.
+	 *
+	 * @return the value of the global variable unmpl_slider
+	 */
+	@ReLogoBuilderGeneratedFor("global: unmpl_slider")
+	public Object getUnmpl_slider(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("unmpl_slider");
+	}
+
+	/**
+	 * Sets the value of the global variable unmpl_slider.
+	 *
+	 * @param value
+	 *            a value
+	 */
+	@ReLogoBuilderGeneratedFor("global: unmpl_slider")
+	public void setUnmpl_slider(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("unmpl_slider",value);
+	}
+
+	/**
+	 * Returns the value of the global variable turtle_mult.
+	 *
+	 * @return the value of the global variable turtle_mult
+	 */
+	@ReLogoBuilderGeneratedFor("global: turtle_mult")
+	public Object getTurtle_mult(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("turtle_mult");
+	}
+
+	/**
+	 * Sets the value of the global variable turtle_mult.
+	 *
+	 * @param value
+	 *            a value
+	 */
+	@ReLogoBuilderGeneratedFor("global: turtle_mult")
+	public void setTurtle_mult(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("turtle_mult",value);
 	}
 
 

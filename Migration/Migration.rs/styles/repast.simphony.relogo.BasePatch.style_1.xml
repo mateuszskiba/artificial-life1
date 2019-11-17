@@ -1,7 +1,7 @@
 <repast.simphony.visualization.editedStyle.DefaultEditedStyleData2D>
   <shapeWkt>circle</shapeWkt>
   <size>1.0</size>
-  <sizeMax>1000000.0</sizeMax>
+  <sizeMax>100.0</sizeMax>
   <sizeMin>0.0</sizeMin>
   <sizeScale>1.0</sizeScale>
   <sizeMethodName>getPlabel</sizeMethodName>

@@ -3,16 +3,8 @@
   <type>2D</type>
   <styles>
     <entry>
-      <string>repast.simphony.relogo.BaseTurtle</string>
-      <string>migration.style.TurtleStyle</string>
-    </entry>
-    <entry>
       <string>repast.simphony.relogo.BasePatch</string>
       <string>repast.simphony.visualization.editedStyle.EditedStyle2D</string>
-    </entry>
-    <entry>
-      <string>repast.simphony.relogo.WayPoint</string>
-      <string>migration.style.WayPointStyle</string>
     </entry>
     <entry>
       <string>migration.relogo.Map</string>
@@ -21,16 +13,8 @@
   </styles>
   <editedStyles>
     <entry>
-      <string>repast.simphony.relogo.BaseTurtle</string>
-      <null/>
-    </entry>
-    <entry>
       <string>repast.simphony.relogo.BasePatch</string>
       <string>repast.simphony.relogo.BasePatch.style_1.xml</string>
-    </entry>
-    <entry>
-      <string>repast.simphony.relogo.WayPoint</string>
-      <null/>
     </entry>
     <entry>
       <string>migration.relogo.Map</string>
@@ -81,22 +65,14 @@
     <pType>LAST</pType>
     <duration>-1.0</duration>
     <frequency>REPEAT</frequency>
-    <hashCode>-703781307</hashCode>
+    <hashCode>1745393854</hashCode>
   </schedParams>
   <layoutClassName>foo.bar.baz</layoutClassName>
   <layoutProjection>Space2d</layoutProjection>
   <layoutInterval>0</layoutInterval>
   <layerOrder>
     <entry>
-      <string>repast.simphony.relogo.BaseTurtle</string>
-      <int>3</int>
-    </entry>
-    <entry>
       <string>repast.simphony.relogo.BasePatch</string>
-      <int>2</int>
-    </entry>
-    <entry>
-      <string>repast.simphony.relogo.WayPoint</string>
       <int>1</int>
     </entry>
     <entry>

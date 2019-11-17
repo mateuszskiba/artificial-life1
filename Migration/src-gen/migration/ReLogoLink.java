@@ -409,5 +409,131 @@ public class ReLogoLink<T> extends BaseLink<T>	{
 		return userLink(oneEnd.getWho(), otherEnd.getWho());
 	}
 
+	/**
+	 * Returns the value of the global variable countriesList.
+	 *
+	 * @return the value of the global variable countriesList
+	 */
+	@ReLogoBuilderGeneratedFor("global: countriesList")
+	public Object getCountriesList(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("countriesList");
+	}
+
+	/**
+	 * Sets the value of the global variable countriesList.
+	 *
+	 * @param value
+	 *            a value
+	 */
+	@ReLogoBuilderGeneratedFor("global: countriesList")
+	public void setCountriesList(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("countriesList",value);
+	}
+
+	/**
+	 * Returns the value of the global variable gdp_weight.
+	 *
+	 * @return the value of the global variable gdp_weight
+	 */
+	@ReLogoBuilderGeneratedFor("global: gdp_weight")
+	public Object getGdp_weight(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("gdp_weight");
+	}
+
+	/**
+	 * Sets the value of the global variable gdp_weight.
+	 *
+	 * @param value
+	 *            a value
+	 */
+	@ReLogoBuilderGeneratedFor("global: gdp_weight")
+	public void setGdp_weight(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("gdp_weight",value);
+	}
+
+	/**
+	 * Returns the value of the global variable unmpl_weight.
+	 *
+	 * @return the value of the global variable unmpl_weight
+	 */
+	@ReLogoBuilderGeneratedFor("global: unmpl_weight")
+	public Object getUnmpl_weight(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("unmpl_weight");
+	}
+
+	/**
+	 * Sets the value of the global variable unmpl_weight.
+	 *
+	 * @param value
+	 *            a value
+	 */
+	@ReLogoBuilderGeneratedFor("global: unmpl_weight")
+	public void setUnmpl_weight(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("unmpl_weight",value);
+	}
+
+	/**
+	 * Returns the value of the global variable gdp_slider.
+	 *
+	 * @return the value of the global variable gdp_slider
+	 */
+	@ReLogoBuilderGeneratedFor("global: gdp_slider")
+	public Object getGdp_slider(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("gdp_slider");
+	}
+
+	/**
+	 * Sets the value of the global variable gdp_slider.
+	 *
+	 * @param value
+	 *            a value
+	 */
+	@ReLogoBuilderGeneratedFor("global: gdp_slider")
+	public void setGdp_slider(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("gdp_slider",value);
+	}
+
+	/**
+	 * Returns the value of the global variable unmpl_slider.
+	 *
+	 * @return the value of the global variable unmpl_slider
+	 */
+	@ReLogoBuilderGeneratedFor("global: unmpl_slider")
+	public Object getUnmpl_slider(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("unmpl_slider");
+	}
+
+	/**
+	 * Sets the value of the global variable unmpl_slider.
+	 *
+	 * @param value
+	 *            a value
+	 */
+	@ReLogoBuilderGeneratedFor("global: unmpl_slider")
+	public void setUnmpl_slider(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("unmpl_slider",value);
+	}
+
+	/**
+	 * Returns the value of the global variable turtle_mult.
+	 *
+	 * @return the value of the global variable turtle_mult
+	 */
+	@ReLogoBuilderGeneratedFor("global: turtle_mult")
+	public Object getTurtle_mult(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("turtle_mult");
+	}
+
+	/**
+	 * Sets the value of the global variable turtle_mult.
+	 *
+	 * @param value
+	 *            a value
+	 */
+	@ReLogoBuilderGeneratedFor("global: turtle_mult")
+	public void setTurtle_mult(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("turtle_mult",value);
+	}
+
 
 }
