@@ -1175,45 +1175,45 @@ public class ReLogoTurtle extends BaseTurtle{
 	}
 
 	/**
-	 * Returns the value of the global variable gdp_slider.
+	 * Returns the value of the global variable rnd_weight.
 	 *
-	 * @return the value of the global variable gdp_slider
+	 * @return the value of the global variable rnd_weight
 	 */
-	@ReLogoBuilderGeneratedFor("global: gdp_slider")
-	public Object getGdp_slider(){
-		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("gdp_slider");
+	@ReLogoBuilderGeneratedFor("global: rnd_weight")
+	public Object getRnd_weight(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("rnd_weight");
 	}
 
 	/**
-	 * Sets the value of the global variable gdp_slider.
+	 * Sets the value of the global variable rnd_weight.
 	 *
 	 * @param value
 	 *            a value
 	 */
-	@ReLogoBuilderGeneratedFor("global: gdp_slider")
-	public void setGdp_slider(Object value){
-		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("gdp_slider",value);
+	@ReLogoBuilderGeneratedFor("global: rnd_weight")
+	public void setRnd_weight(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("rnd_weight",value);
 	}
 
 	/**
-	 * Returns the value of the global variable unmpl_slider.
+	 * Returns the value of the global variable threshold.
 	 *
-	 * @return the value of the global variable unmpl_slider
+	 * @return the value of the global variable threshold
 	 */
-	@ReLogoBuilderGeneratedFor("global: unmpl_slider")
-	public Object getUnmpl_slider(){
-		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("unmpl_slider");
+	@ReLogoBuilderGeneratedFor("global: threshold")
+	public Object getThreshold(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("threshold");
 	}
 
 	/**
-	 * Sets the value of the global variable unmpl_slider.
+	 * Sets the value of the global variable threshold.
 	 *
 	 * @param value
 	 *            a value
 	 */
-	@ReLogoBuilderGeneratedFor("global: unmpl_slider")
-	public void setUnmpl_slider(Object value){
-		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("unmpl_slider",value);
+	@ReLogoBuilderGeneratedFor("global: threshold")
+	public void setThreshold(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("threshold",value);
 	}
 
 	/**

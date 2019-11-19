@@ -43,10 +43,29 @@ class UserPatch extends ReLogoPatch{
 		percentile = lower_gdp/count(countriesList)
 		}
 		
-		def gdp_attr = 0.5*20*(gdp/prev_gdp-1)+0.5*percentile
-		def unmpl_attr = (100-unemployment)
 		
-		attr = (gdp_weight*gdp_attr + unmpl_weight*unmpl_attr)/(gdp_weight+unmpl_weight)
+		// Normalization
+		def max_gdp = maxOneOf(getCountriesList()) {
+			it.getGdp()
+		}
+		def min_gdp = minOneOf(getCountriesList()) {
+			it.getGdp()
+		}
+		def max_unmpl = maxOneOf(getCountriesList()) {
+			it.getUnemployment()
+		}
+		def min_unmpl = minOneOf(getCountriesList()) {
+			it.getUnemployment()
+			
+		}
+		
+
+		def gdp_norm = (gdp - min_gdp.gdp)/(max_gdp.gdp-min_gdp.gdp)
+		def unmpl_norm = (unemployment - min_unmpl.unemployment)/(max_unmpl.unemployment-min_unmpl.unemployment)
+		
+
+		Random random = new Random()
+		attr = (gdp_weight*gdp_norm + unmpl_weight*unmpl_norm+random.nextDouble())/(gdp_weight+unmpl_weight+rnd_weight)
 	}
 	
 	def imigrant_update() {
