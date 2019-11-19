@@ -3,6 +3,10 @@
   <type>2D</type>
   <styles>
     <entry>
+      <string>migration.relogo.Migrant</string>
+      <string>repast.simphony.visualization.editedStyle.EditedStyle2D</string>
+    </entry>
+    <entry>
       <string>repast.simphony.relogo.BasePatch</string>
       <string>repast.simphony.visualization.editedStyle.EditedStyle2D</string>
     </entry>
@@ -12,6 +16,10 @@
     </entry>
   </styles>
   <editedStyles>
+    <entry>
+      <string>migration.relogo.Migrant</string>
+      <string>migration.relogo.Migrant.style_2.xml</string>
+    </entry>
     <entry>
       <string>repast.simphony.relogo.BasePatch</string>
       <string>repast.simphony.relogo.BasePatch.style_1.xml</string>
@@ -65,12 +73,16 @@
     <pType>LAST</pType>
     <duration>-1.0</duration>
     <frequency>REPEAT</frequency>
-    <hashCode>1745393854</hashCode>
+    <hashCode>1355476366</hashCode>
   </schedParams>
   <layoutClassName>foo.bar.baz</layoutClassName>
   <layoutProjection>Space2d</layoutProjection>
   <layoutInterval>0</layoutInterval>
   <layerOrder>
+    <entry>
+      <string>migration.relogo.Migrant</string>
+      <int>2</int>
+    </entry>
     <entry>
       <string>repast.simphony.relogo.BasePatch</string>
       <int>1</int>

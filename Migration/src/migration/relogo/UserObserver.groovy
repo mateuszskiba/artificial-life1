@@ -27,16 +27,21 @@ class UserObserver extends ReLogoObserver{
 				patch(x, y).population = Math.round(A[3].toInteger()/turtle_mult).toInteger()
 				patch(x, y).gdp = A[4].toInteger()
 				patch(x, y).unemployment = A[5].toFloat()
-				patch(x, y).coeff = [A[6].toFloat(), A[7].toFloat(), A[8].toFloat(), A[9].toFloat()]
+				patch(x, y).migrants = Math.round(A[6].toFloat().toInteger()/turtle_mult).toInteger()
+				patch(x, y).coeff = [A[7].toFloat(), A[8].toFloat(), A[9].toFloat(), A[10].toFloat()]
 				countriesList.add(patch(x,y))
 			}
 			
 			ask(countriesList) {
 				setPlabel(getPopulation())
 				sproutHumans(getPopulation())
+				sproutMigrants(1)
 				
 				ask(humansOn(it)) {
 					setNationality(getName())
+				}
+				ask(migrantsOn(it)) {
+					it.setLabel(getMigrants())
 				}
 			}
 		}
@@ -61,6 +66,7 @@ class UserObserver extends ReLogoObserver{
 			ask(countriesList) {
 				count_attractiveness()
 				setPlabel(getPopulation())
+				migrantsOn(it)[0].setLabel(getMigrants())
 			}
 			
 		}

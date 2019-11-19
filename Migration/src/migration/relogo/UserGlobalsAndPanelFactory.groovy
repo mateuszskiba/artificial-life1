@@ -24,10 +24,14 @@ public class UserGlobalsAndPanelFactory extends AbstractReLogoGlobalsAndPanelFac
 	        
 		 */
 		addGlobal("countriesList", [])
-		addSliderWL("gdp_weight", "GDP weight", 1, 1, 100, 50)
-		addSliderWL("unmpl_weight", "Unemployment weight", 1, 1, 100, 50)
-		addSliderWL("rnd_weight", "Weight of randomness", 1, 1, 100, 50)
-		addSliderWL("threshold", "Migration threshold", 1, 1, 100, 50)
+		addSliderWL("gdp_weight", "GDP weight", 1, 1, 100, 10)
+		addSliderWL("unmpl_weight", "Unemployment weight", 1, 1, 100, 15)
+		addSliderWL("rnd_weight", "Weight of random country attr", 1, 1, 100, 70)
+		addSliderWL("migrants_weight", "Weight of migrants attr", 0, 0.01, 1, 0.1)
+		addSliderWL("attr_const", "Attractiveness constant", 0, 0.01, 1, 0.1)
+		addSliderWL("curiosity_prob", "Prob of emigr due to curiosity", 0, 0.01, 1, 0.1)
+		addSliderWL("emig_weight", "Weight of emigration willingness", 0, 0.01, 100, 55)
+//		addSliderWL("threshold", "Migration threshold", 0, 0.01, 1, 0.5)
 		addChooserWL("turtle_mult", "Turtle is how many people?", [1, 10, 100, 1000, 10000, 100000], 4)
 
 	}

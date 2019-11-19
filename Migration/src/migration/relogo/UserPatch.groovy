@@ -24,6 +24,9 @@ class UserPatch extends ReLogoPatch{
 		prev_gdp = gdp
 		gdp = coeff[0]*(migrants*turtle_mult) + coeff[1]
 		unemployment = coeff[2]*(migrants*turtle_mult) + coeff[3]
+		if (unemployment < 0) {
+			unemployment = 0
+		}
 	}
 	
 	def count_attractiveness() {
@@ -65,7 +68,10 @@ class UserPatch extends ReLogoPatch{
 		
 
 		Random random = new Random()
-		attr = (gdp_weight*gdp_norm + unmpl_weight*unmpl_norm+random.nextDouble())/(gdp_weight+unmpl_weight+rnd_weight)
+		attr = attr_const + ((gdp_weight*gdp_norm +unmpl_weight*(1-unmpl_norm)+random.nextDouble())/(gdp_weight+unmpl_weight+rnd_weight))
+		attr -= migrants_weight*migrants/population
+
+//		System.out.println(attr)
 	}
 	
 	def imigrant_update() {
